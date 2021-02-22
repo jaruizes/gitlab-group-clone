@@ -1,2 +1,2 @@
-# gitlab-clone-all
-NodeJS CLI to clone all projects within a group
+# gitlab-gitclone-all
+NodeJS CLI to gitclone all projects within a group

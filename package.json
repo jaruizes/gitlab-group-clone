@@ -1,0 +1,17 @@
+{
+  "name": "glilab-clone-cli",
+  "version": "1.0.0",
+  "license": "MIT",
+  "bin": {
+    "glclone": "src/main.js"
+  },
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "figlet": "^1.4.0",
+    "inquirer": "^3.1.1",
+    "shelljs": "^0.8.4"
+  }
+}
