@@ -23,8 +23,12 @@ jobs:
     steps:
       - uses: actions/checkout@v1
       - uses: actions/setup-node@v1
+        name: Set Up Node
         with:
           node-version: '14.x'
+      - name: Install dependencies
+        run: npm install
       - uses: JS-DevTools/npm-publish@v1
+        name: Publish to NPM
         with:
           token: ${{ secrets.NPM_TOKEN }}
