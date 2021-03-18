@@ -2,16 +2,27 @@
   "name": "glilab-clone-cli",
   "version": "1.0.0",
   "license": "MIT",
+  "author": "José Alberto Ruiz <jalb80@gmail.com> (https://jaruiz.io)",
   "bin": {
-    "glclone": "src/main.js"
+    "glabclone": "bin/index.js"
+  },
+  "main": "lib/gitlab-cloner/gitlab-group-cloner.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jaruizes/gitlab-clone-all"
   },
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node bin/index.js",
+    "test": "jest"
   },
   "dependencies": {
     "axios": "^0.21.1",
     "figlet": "^1.4.0",
     "inquirer": "^3.1.1",
     "shelljs": "^0.8.4"
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.13.0",
+    "jest": "^26.6.3"
   }
 }
