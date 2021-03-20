@@ -62,9 +62,29 @@ This tool is so easy to use because it's a CLI. The CLI asks you the following q
 - Method: ssh / http
 - Token: a personal access token with API grants.
 
-For instance:
+<br />
+
+### Globally
+If you installed the tool [globally](#global-(recommended)), execute (from any folder):
+
+```
+glabclone
+```
+
+<br />
+
+And the tool will begin to ask for the necessary data. For instance:
 
 ![gitlab_access_token](./doc/img/cli.png)
+
+<br />
+
+### Locally
+If you install the tool [locally](#local), go to the folder where you cloned the project and execute:
+
+```
+npm start
+```
 
 <br />
 
