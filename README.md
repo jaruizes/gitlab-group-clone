@@ -37,7 +37,7 @@ To use this tool you need:
   to call to Gitlab API. To create this token, just go to **Preferences -> Access Tokens** in the Gitlab web application. Then,
   you must create a Token with "API" grants:
 
-  ![gitlab_access_token](./doc/images/gitlab_access_token.png)
+  ![gitlab_access_token](./doc/img/gitlab_access_token.png)
 
 - **Be allowed to clone projects in Gitlab (private projects)**: this tool isn't going to ask you for any password or ssh keys to clone private
   projects. It assumes that you have already configured in your system the credentials to clone private projects in Gitlab.
@@ -54,13 +54,13 @@ This tool is so easy to use because it's a CLI. The CLI asks you the following q
 
 For instance:
 
-![gitlab_access_token](/doc/images/cli.png)
+![gitlab_access_token](./doc/img/cli.png)
 
 
 #### Group ID
 
 The group ID is the number located below the group name:
 
-![group id](/doc/images/group_id.png)
+![group id](./doc/img/group_id.png)
 
 Just copy this number and paste it when the CLI asks for it.
