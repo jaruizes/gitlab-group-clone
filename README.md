@@ -41,8 +41,8 @@ To use this tool you need:
 
 - **Be allowed to clone projects in Gitlab (private projects)**: this tool isn't going to ask you for any password or ssh keys to clone private
   projects. It assumes that you have already configured in your system the credentials to clone private projects in Gitlab.
-  
 
+<br />
 ### Executing the tool
 This tool is so easy to use because it's a CLI. The CLI asks you the following questions:
 
@@ -56,7 +56,7 @@ For instance:
 
 ![gitlab_access_token](./doc/img/cli.png)
 
-
+<br />
 #### Group ID
 
 The group ID is the number located below the group name:
