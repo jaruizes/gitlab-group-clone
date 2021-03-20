@@ -1,6 +1,6 @@
 {
   "name": "gitlab-group-clone",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "license": "MIT",
   "author": "José Alberto Ruiz <jalb80@gmail.com> (https://jaruiz.io)",
   "bin": {
