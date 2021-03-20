@@ -37,7 +37,7 @@ To use this tool you need:
   to call to Gitlab API. To create this token, just go to **Preferences -> Access Tokens** in the Gitlab web application. Then,
   you must create a Token with "API" grants:
 
-  ![gitlab_access_token](doc/images/gitlab_access_token.png)
+  ![gitlab_access_token](./doc/images/gitlab_access_token.png)
 
 - **Be allowed to clone projects in Gitlab (private projects)**: this tool isn't going to ask you for any password or ssh keys to clone private
   projects. It assumes that you have already configured in your system the credentials to clone private projects in Gitlab.
