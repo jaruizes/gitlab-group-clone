@@ -22,7 +22,6 @@ jobs:
           name: id_gitlabpublic
           known_hosts: ${{ secrets.KNOWN_HOSTS }}
           config: ${{ secrets.CONFIG }}
-          if_key_exists: fail
       - name: Test
         run: npm run test
         env:
