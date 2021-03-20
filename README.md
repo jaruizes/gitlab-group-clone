@@ -1,32 +1,66 @@
-# Gitlab Groups Clone Tool
+# Gitlab Clone Group Tool
 
-This project provides a NodeJS tool to clone all the projects within a group, identified by its id
+This project provides a tool to clone all the projects within a group, identified by its id. The group id is located below 
+the name:
 
-## Setup
-Execute this command to install NodeJS packages:
+
+## Install
+
+### Global (Recommended)
+To install this tool, execute this command:
 
 ```
+npm i gitlab-clone-group -g
+```
+
+### Local
+If you don't want to install the tool globally, clone the project from Github and execute it from the project folder.
+To clone the project, execute:
+
+```
+git clone https://github.com/jaruizes/gitlab-clone-group.git
+```
+
+And then, execute:
+
+```
+cd gitlab-clone-group
 npm i
 ```
 
 ## Usage
-Execute this command to execute the tool:
 
-```
-npm start
-```
+### Requirements
+To use this tool you need:
 
-The system asks you the following questions:
-- Gitlab URL
+- **Gitlab Personal Access Token**: this tool asks you for this kind of token but it will never store it. The tool uses this token 
+  to call to Gitlab API. To create this token, just go to **Preferences -> Access Tokens** in the Gitlab web application. Then,
+  you must create a Token with "API" grants:
+
+  ![gitlab_access_token](/doc/images/gitlab_access_token.png)
+
+- **Be allowed to clone projects in Gitlab (private projects)**: this tool isn't going to ask you for any password or ssh keys to clone private
+  projects. It assumes that you have already configured in your system the credentials to clone private projects in Gitlab.
+  
+
+### Executing the tool
+This tool is so easy to use because it's a CLI. The CLI asks you the following questions:
+
+- Gitlab base URL, for instance: https://gitlab.com/
 - GroupId to clone: this id is an integer. It's not the group name.
 - Destination path: path where the group will be cloned
 - Method: ssh / http
-- Token: a token is necessary in order to call Gitlab API to get information about the group. This token isn't stored.
+- Token: a personal access token with API grants.
 
-** For each project associated to the group, the tool checks if the project is already cloned. In this case, the tool
-will perform a pull action instead of a clone action
+For instance:
+
+![gitlab_access_token](/doc/images/cli.png)
 
 
-## Roadmap
+#### Group ID
 
-- Check if the group has more than 100 projects associated. In this case, multiple calls to Gitlab API should be implemented (pagination)
+The group ID is the number located below the group name:
+
+![group id](/doc/images/group_id.png)
+
+Just copy this number and paste it when the CLI asks for it.
