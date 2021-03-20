@@ -13,6 +13,9 @@ To install this tool, execute this command:
 npm i gitlab-clone-group -g
 ```
 
+<br />
+
+
 ### Local
 If you don't want to install the tool globally, clone the project from Github and execute it from the project folder.
 To clone the project, execute:
@@ -21,12 +24,18 @@ To clone the project, execute:
 git clone https://github.com/jaruizes/gitlab-clone-group.git
 ```
 
+<br />
+
+
 And then, execute:
 
 ```
 cd gitlab-clone-group
 npm i
 ```
+
+<br />
+
 
 ## Usage
 
