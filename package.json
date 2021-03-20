@@ -9,7 +9,7 @@
   "main": "lib/gitlab-cloner/gitlab-group-cloner.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jaruizes/gitlab-clone-all"
+    "url": "https://github.com/jaruizes/gitlab-clone-group"
   },
   "scripts": {
     "start": "node bin/index.js",
