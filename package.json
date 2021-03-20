@@ -1,10 +1,10 @@
 {
-  "name": "gitlab-clone-group",
+  "name": "gitlab-group-clone",
   "version": "1.0.0",
   "license": "MIT",
   "author": "José Alberto Ruiz <jalb80@gmail.com> (https://jaruiz.io)",
   "bin": {
-    "glabclone": "bin/index.js"
+    "glabgclone": "bin/index.js"
   },
   "main": "lib/gitlab-cloner/gitlab-group-cloner.js",
   "repository": {

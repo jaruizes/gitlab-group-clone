@@ -1,8 +1,13 @@
-# Gitlab Clone Group Tool
+# Gitlab Group Clone Tool
 
-This project provides a tool to clone all the projects within a group, identified by its id. The group id is located below 
-the name:
+This project provides a tool to clone all the projects within a group, identified by its id.
 
+## Features
+
+- Clone every project associated to a group and its subgroups
+- If some project is already cloned in the target folder, this tool will perform a "git pull" action
+
+<br />
 
 ## Install
 
@@ -10,7 +15,7 @@ the name:
 To install this tool, execute this command:
 
 ```
-npm i gitlab-clone-group -g
+npm i gitlab-group-clone -g
 ```
 
 <br />
@@ -21,16 +26,16 @@ If you don't want to install the tool globally, clone the project from Github an
 To clone the project, execute:
 
 ```
-git clone https://github.com/jaruizes/gitlab-clone-group.git
+git clone https://github.com/jaruizes/gitlab-group-clone.git
 ```
 
 <br />
 
 
-And then, execute:
+Then, execute:
 
 ```
-cd gitlab-clone-group
+cd gitlab-group-clone
 npm i
 ```
 
@@ -68,7 +73,7 @@ This tool is so easy to use because it's a CLI. The CLI asks you the following q
 If you installed the tool [globally](#global), execute (from any folder):
 
 ```
-glabclone
+glabgclone
 ```
 
 <br />
