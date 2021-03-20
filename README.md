@@ -6,7 +6,7 @@ the name:
 
 ## Install
 
-### Global (Recommended)
+### Global
 To install this tool, execute this command:
 
 ```
@@ -65,7 +65,7 @@ This tool is so easy to use because it's a CLI. The CLI asks you the following q
 <br />
 
 ### Globally
-If you installed the tool [globally](#global-(Recommended)), execute (from any folder):
+If you installed the tool [globally](#global), execute (from any folder):
 
 ```
 glabclone
